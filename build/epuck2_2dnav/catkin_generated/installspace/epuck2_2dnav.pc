@@ -1,0 +1,8 @@
+prefix=/home/vinit/gym-vinit/install
+
+Name: epuck2_2dnav
+Description: Description of epuck2_2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vinit/gym-vinit/install/lib 
+Requires: 

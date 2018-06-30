@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="publish_velocity" type="publish_velocity" name="publish_velocity" output="screen">
+    <param name="publish_velocity" textfile="$(find publish_velocity)/src/publish_velocity.cpp" />
+</node>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/vinit/gym-vinit/devel
+
+Name: epuck2_control
+Description: Description of epuck2_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vinit/gym-vinit/devel/lib 
+Requires: 

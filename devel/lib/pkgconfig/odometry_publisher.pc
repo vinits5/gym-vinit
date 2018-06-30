@@ -1,0 +1,8 @@
+prefix=/home/vinit/gym-vinit/devel
+
+Name: odometry_publisher
+Description: Description of odometry_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vinit/gym-vinit/devel/lib 
+Requires: nav_msgs roscpp rospy tf

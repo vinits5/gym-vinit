@@ -1,0 +1,8 @@
+prefix=/home/vinit/gym-vinit/install
+
+Name: epuck2_description
+Description: Description of epuck2_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vinit/gym-vinit/install/lib 
+Requires: 

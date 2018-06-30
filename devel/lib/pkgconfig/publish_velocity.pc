@@ -1,0 +1,8 @@
+prefix=/home/vinit/gym-vinit/devel
+
+Name: publish_velocity
+Description: Description of publish_velocity
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vinit/gym-vinit/devel/lib 
+Requires: 

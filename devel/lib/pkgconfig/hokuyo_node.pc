@@ -1,0 +1,8 @@
+prefix=/home/vinit/gym-vinit/devel
+
+Name: hokuyo_node
+Description: Description of hokuyo_node
+Version: 1.7.8
+Cflags: -I/home/vinit/gym-vinit/devel/include -I/home/vinit/gym-vinit/src/hokuyo_node/include
+Libs: -L/home/vinit/gym-vinit/devel/lib -llibhokuyo
+Requires: rosconsole

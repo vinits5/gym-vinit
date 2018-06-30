@@ -1,0 +1,17 @@
+
+<launch>
+   <param name="robot_description" textfile="$(find epuck2_description)/robots/epuck2.URDF" />  
+
+ <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find epuck2_gazebo)/worlds/epuck_path1_lidar.world"/>
+    <arg name="paused" value="true"/>
+    
+  </include>
+
+<!-- <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find epuck2_description)/robots/epuck2.URDF -urdf -model epuck2 -x 0 -y 0 -z 0 -R 0 -P 0 -Y 1.5708" />
+-->
+
+<include file="$(find epuck2_control)/launch/epuck2_control.launch">
+
+</include>
+</launch>

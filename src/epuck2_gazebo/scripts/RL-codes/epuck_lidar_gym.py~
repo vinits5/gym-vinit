@@ -1,0 +1,8 @@
+import rospy
+import EPUCK_GYM
+
+bot = EPUCK_GYM.EPUCK_GYM()
+bot.reset_world()
+bot.unpause()
+print(bot.get_laser_data())
+#bot.reset_world()

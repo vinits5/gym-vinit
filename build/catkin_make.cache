@@ -1,0 +1,2 @@
+epuck2_2dnav:epuck2_control:epuck2_description:epuck2_gazebo:hokuyo_node:laser_scan:odometry_publisher:publish_velocity:robot_setup_tf:turtlebot/turtlebot:turtlebot/turtlebot_bringup:turtlebot/turtlebot_capabilities:turtlebot/turtlebot_description:turtlebot/turtlebot_teleop:turtlebot_simulator/turtlebot_gazebo:turtlebot_simulator/turtlebot_simulator:turtlebot_simulator/turtlebot_stage:turtlebot_simulator/turtlebot_stdr
+-DCATKIN_DEVEL_PREFIX=/home/vinit/gym-vinit/devel -DCMAKE_INSTALL_PREFIX=/home/vinit/gym-vinit/install -G Unix Makefiles

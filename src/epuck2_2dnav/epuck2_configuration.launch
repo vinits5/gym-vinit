@@ -1,0 +1,20 @@
+<launch>
+  <node pkg="laser_scan" type="laser_scan_publisher" name="laser_scan_publisher" output="screen">
+    <param name="tf_listener" textfile="$(find laser_scan)/src/laser_scan_publisher.cpp" />
+</node>
+<node pkg="laser_scan" type="laser_scan_subscriber" name="laser_scan_subscriber" output="screen">
+    <param name="tf_listener" textfile="$(find laser_scan)/src/laser_scan_subscriber.cpp" />
+</node>
+
+  <node pkg="odometry_publisher" type="odometry_publisher" name="odometry_publisher" output="screen">
+    param name="odometry_publisher" textfile="$(find odometry_publisher)/src/odometry_publisher.cpp" />
+    
+  </node>
+
+  <node pkg="robot_setup_tf" type="tf_broadcaster" name="tf_broadcaster" output="screen">
+    <param name="tf_broadcaster" textfile="$(find robot_setup_tf)/src/tf_broadcaster.cpp" />
+  </node>
+<node pkg="robot_setup_tf" type="tf_listener" name="tf_listener" output="screen">
+    <param name="tf_listener" textfile="$(find robot_setup_tf)/src/tf_listener.cpp" />
+  </node>
+</launch>

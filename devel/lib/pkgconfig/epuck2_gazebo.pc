@@ -1,0 +1,8 @@
+prefix=/home/vinit/gym-vinit/devel
+
+Name: epuck2_gazebo
+Description: Description of epuck2_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/vinit/gym-vinit/devel/lib 
+Requires: gazebo_ros roscpp rospy sensor_msgs std_msgs tf catkin rostest rosconsole
